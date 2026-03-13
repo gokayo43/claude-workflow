@@ -1,6 +1,6 @@
 {
   "name": "dev-workflow",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Code review agents, commit skills, and coding rules for a disciplined dev workflow",
   "author": {
     "name": "Iruki"
