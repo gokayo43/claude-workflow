@@ -1,7 +1,9 @@
 ---
+name: commit
+description: Stage, commit, and push all changes
+disable-model-invocation: true
 model: haiku
 allowed-tools: Bash(git status:*), Bash(git diff:*), Bash(git log:*), Bash(git add:*), Bash(git commit:*), Bash(git push:*), Bash(git branch:*)
-description: Commit and push changes using Haiku
 ---
 
 ## Context

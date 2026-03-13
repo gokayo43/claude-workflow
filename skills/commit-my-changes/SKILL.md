@@ -1,7 +1,9 @@
 ---
+name: commit-my-changes
+description: Commit only changes made by Claude, skip files with mixed authorship
+disable-model-invocation: true
 model: haiku
 allowed-tools: Bash(git status:*), Bash(git diff:*), Bash(git log:*), Bash(git add:*), Bash(git commit:*), Bash(git push:*), Bash(git branch:*), Bash(git stash:*)
-description: Commit only changes made by Claude, skip files with mixed authorship
 ---
 
 ## Context
