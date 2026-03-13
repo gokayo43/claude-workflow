@@ -1,0 +1,13 @@
+{
+  "name": "claude-workflow",
+  "owner": {
+    "name": "TCS"
+  },
+  "plugins": [
+    {
+      "name": "dev-workflow",
+      "source": "./",
+      "description": "Code review agents, commit skills, and coding rules for a disciplined dev workflow"
+    }
+  ]
+}
